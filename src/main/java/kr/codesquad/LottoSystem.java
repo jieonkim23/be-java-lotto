@@ -9,13 +9,13 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class LottoSystem {
-    int money;
-    double rate;
-    List<Integer> winNums;
-    Scanner sc;
-    List<Lotto> lottos = new ArrayList<>();
+    private int money;
+    private double rate;
+    private List<Integer> winNums;
+    private Scanner sc;
+    private List<Lotto> lottos = new ArrayList<>();
     private static final int COST = 1000;
-    int[] result = new int[7];
+    private int[] result = new int[7];
 
     public void getMoney() {
         System.out.println("구입금액을 입력해주세요.");
